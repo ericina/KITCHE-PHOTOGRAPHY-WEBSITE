@@ -2,6 +2,7 @@ const form = document.getElementById('signup')
 const firstname_input = document.getElementById('username')
 const email = document.getElementById('email')
 const password = document.getElementById('password')
+const repeat_password_input = document.getElementById('repeat-password-input')
 const error_message = document.getElementById('error-message')
 
 form.addEventListener('submit', (e) => {
